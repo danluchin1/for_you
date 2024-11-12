@@ -1,0 +1,38 @@
+/* Reset default padding and margin */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background: rgba(0, 0, 0, 0.851);
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* Fullscreen container for the canvas */
+.canvas-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Message container positioned below the canvas */
+.message {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #ffe6cc; /* Light beige text for a soft, warm look */
+    background-color: rgba(80, 0, 0, 0.9); /* Dark burgundy with slight transparency */
+    border: 2px solid #b30000; /* Deep red border */
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-weight: bold;
+  }
